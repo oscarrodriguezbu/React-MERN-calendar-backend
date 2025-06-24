@@ -2,6 +2,8 @@
 
 This is the backend for the calendar project as part of the MERN stack. This backend has been developed with Node.Js, Express, MongoDB, JWT, Mongoose, Express-Validator, etc. It handles basic and validated authentication along with the CRUD of the calendar web application.
 
+Also within the public folder is the implemented frontend (REACT.JS), and if the free tier allows it on the Railway page, you can see the application running at the following URL: https://react-mern-calendar-2025.up.railway.app/auth/login
+
 ## Development
 
 1. Install dependencies  `npm install`
