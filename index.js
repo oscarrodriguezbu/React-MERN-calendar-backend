@@ -24,7 +24,7 @@ app.use(express.json()); //express ya viene listo para parsear el body. Esto se 
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/events", require("./routes/events"));
 
-app.use("*", (req, res) => {
+app.use("*", (req, res) => {//se adiciona configuracion para que la url del frontend no se bugueé en produccion con las urls
   //siempre necesita una respuesta
   res.sendFile(path.join(__dirname, "public/index.html"));
 });
